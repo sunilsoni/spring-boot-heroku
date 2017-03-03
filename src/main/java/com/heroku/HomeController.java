@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 
     private RecordRepository repository;
-
+   
     @Autowired
     public HomeController(RecordRepository repository) {
         this.repository = repository;
